@@ -1,0 +1,141 @@
+
+*{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Kumbh Sans', sans-serif;
+    
+    }
+    .body-cp-lg{
+        font-size: 18px;
+    }
+    
+    h2{
+        font-size: 18px;
+    }
+
+
+body {
+
+    display: grid;
+    background: url("/images/bg-pattern-top.svg") no-repeat, url("/images/bg-pattern-bottom.svg") no-repeat;
+    background-color:  hsl(185, 75%, 39%);
+    background-position: top -17rem left -40px, bottom -30rem right -200px;
+    background-size: 40rem, 50rem;
+    font-weight: 400;
+
+
+
+}
+
+.mainContainer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.profileCard{
+
+    width: 350px;
+    overflow: hidden;
+    border-radius: 1rem;
+    position: relative;
+    color: hsl(229, 23%, 23%);
+    text-align: center;
+
+}
+
+.bgcard {
+
+    height: 140px;
+    background-image: url(./images/bg-pattern-card.svg);
+
+}
+
+.Profileimage {
+
+    position: absolute;
+    top:85px;
+    left:122px;
+    overflow: hidden;
+    border-radius: 50%;
+    width:105px;
+    height:105px;
+    border: 5px solid white;
+
+}
+
+    
+
+
+
+
+.nameContainer {
+
+    background-color: white;
+    padding-top: 75px;
+    height: 145px;
+
+}
+
+.age {
+
+    padding-left: 8px;
+}
+
+.colour {
+
+    color: hsl(227, 10%, 46%);
+
+}
+
+.london {
+
+    font-size: 14px;
+    padding: 10px 0px;
+}
+
+.colourgrey {
+
+    color: hsl(227, 10%, 46%);
+
+}
+
+.bottomContainer ul {
+
+    height: 86px;
+    display: flex;
+    padding-inline-start: 0;
+    list-style: none;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: white;
+
+
+}
+
+.body-cp-lg{
+
+    font-size: 18px;
+}
+
+.body-cp-sm {
+
+    font-size: 11px;
+    padding-top: 0.5rem;
+    letter-spacing: 1px;
+}
+
+.colourblue{
+
+    color: hsl(227, 10%, 46%);
+
+
+}
+
+hr {
+
+    border-top: hsl(227, 10%, 46%);
+
+
+}
